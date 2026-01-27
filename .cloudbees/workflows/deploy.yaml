@@ -14,7 +14,7 @@ jobs:
           labels: demo-go-service
           artifact-id: 7c12fbd2-61d0-45f5-a21a-db28461fbb3e #demo-go-service
           # artifact-id: 3caddc9e-d7cc-42c9-a8c1-95c025dcd211 #demo-go-service
-          target-environment: PN-ASPM-ENV
+          target-environment: Test
       # - uses: cloudbees-io/register-deployed-artifact@v2
       #   with:
       #     labels: demo-go-service
