@@ -11,8 +11,8 @@ jobs:
     steps:
       - uses: cloudbees-io/register-deployed-artifact@v2
         with:
-          labels: SVMultiLangRepo
-          artifact-id: 36ab5ca0-3c7a-4488-9838-3d8b2ac00a1a #SVMultiLangRepo
+          labels: mm-multilang
+          artifact-id: 35f9843c-610b-4263-ab14-abfd8b015804
           # artifact-id: 3caddc9e-d7cc-42c9-a8c1-95c025dcd211 #demo-go-service
           target-environment: QA
       # - uses: cloudbees-io/register-deployed-artifact@v2
